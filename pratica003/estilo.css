@@ -1,0 +1,80 @@
+body {
+    color: white;
+    background: linear-gradient(45deg, rgb(188, 188, 236), rgb(28, 28, 71));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 40px;
+    text-shadow: 0 0 1px black;
+}
+
+a {
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+    border-radius: 20%;
+    border: 5px solid rgb(255, 255, 255);
+    float: right;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    text-align: left;
+    font-size: 88px;
+    color: rgb(252, 244, 244);
+    text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+    text-align: left;
+    color: rgb(244, 237, 248);
+    padding: 50px;
+    text-shadow: 0 2px 2px black;
+}
+
+h3 {
+    text-align: left;
+    color: white;
+    padding: 90px;
+    text-shadow: 0 0 2px black;
+}
+
+em {
+    color: blue;
+}
+strong {
+    color: aqua;
+}
+
+p {
+    margin: 15px 150px 15px 150px;
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+p.texto1 {
+    padding: 50px 40px;
+    background-color: rgb(39, 24, 6);
+}
+
+p.texto2 {
+    padding: 60px;
+    background-color: brown;
+}
+p.texto3 {
+    background: linear-gradient(to right, rgb(115, 115, 219), rgb(23, 20, 65));
+    padding: 80px;
+}

@@ -1,0 +1,72 @@
+body {
+    background-color: aquamarine;
+}
+
+
+img.primeiro {
+    border-radius: 40%;
+    max-width: 500px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    opacity: 0.9;
+    filter: grayscale(100%);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -3;
+    
+}
+img.segundo {
+    border-radius: 40%;
+    max-width: 500px;
+    height: 400px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    opacity: 0.9;
+    filter: saturate(8)
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.imagem {
+    
+    display: block;
+    width: 100%;
+    height: 600px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: green;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}

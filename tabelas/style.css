@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(80.0deg, #ffffff 9.33%, #000000 90.33%);
+}
+table, th, td {
+    border: 2px solid gray;
+    text-align: center;
+    padding: 20px;
+}
+
+thead {
+    
+}
+
+.spfc {
+    font-size: 30px;
+    background: linear-gradient(0.0deg, #ff0000 6.33%, #ffffff 50.33%, #000000 90.33%);
+    color: #000000;
+    
+}
+
+.mengo {
+    font-size: 30px;
+    background: linear-gradient(90.0deg, #000000 50.0%, #ff0000 10.0%);
+    color: #ffffff;
+}
+.porco {
+    font-size: 30px;
+    background: green;
+    color: #ffffff;
+}
+
+td {
+    background: rgb(28, 2, 51);
+    color: #ffffff;
+}
+
+.linha1 {
+    background: linear-gradient(0.0deg, #ff0000 6.33%, #ffffff 50.33%, #000000 90.33%);
+    color: #000000;
+}
+.linha2 {
+    background: linear-gradient(90.0deg, #000000 50.0%, #ff0000 50.0%);
+    color: #ffffff;
+}
+.linha3 {
+    background: green;
+}
+.jogodavelha {
+    background: #000000;
+    color: #ffffff;
+}

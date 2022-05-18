@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática JS</title>
+</head>
+<body>
+    <div class="vasco">
+        <h1>O que eu aprendi hoje.</h1>
+        <p id="teste">Clicando no botão eu mostro uma mensagem pra vocês</p>
+
+        <button type="button" onclick='document.getElementById("teste").innerHTML = "O Vasco é o maior do Rio"'>Click aqui!</button>
+    </div>
+
+    <div class="tricolor">
+        <h1>colocando o hino do São Paulo</h1>
+        <p id="demo">Salve o tricolor paulista...</p>
+        <button type="button" onclick="document.getElementById('demo').innerHTML='...amado clube brasileiro..'">Clique pra continuar</button>
+    </div>
+
+    <div class="branco">
+        <h1 class="preta">Seguindo o hino</h1>
+        <p id="hino" class="pretinha">Oh tricolor! Clube bem amado</p>
+        <button type="button" onclick="document.getElementById('hino').innerHTML='As tuas glórias vêm do passado'">Clique pra seguir</button>
+    </div>
+
+</body>
+</html>

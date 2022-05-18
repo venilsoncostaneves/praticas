@@ -1,0 +1,73 @@
+*{
+   margin: 0; 
+   padding: 0;
+   list-style: none;
+}
+body {
+    background-color: white;
+    width: 100%;
+    color: green;
+    text-align: center;
+    min-height: 100vh;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    overflow: scroll;
+    height: 90vh;
+    padding: 15px 2%;
+    box-shadow: 0 0 5px blue;
+}
+
+.container::-webkit-scrollbar {
+    width: 14px;
+    border: 1px solid green;
+}
+
+.container::-webkit-scrollbar-thumb{
+    background-color: blue;
+    border-radius: 6px;
+}
+
+.dados1 {
+    border-top: medium solid blue;
+    border-bottom: medium solid blue;
+    height: 5px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+
+.dados1::after {
+    content: "Venilson Neves";
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    top: -0.7em;
+    background: white;
+    display: inline;
+    position: relative;
+}
+
+.hr-01 {
+    border-top: medium solid blue;
+    border-bottom: medium solid blue;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+
+.hr-01::after {
+    content: 'Objetivo';
+    position: relative;
+    top: -0.7em;
+    font-size: 1.4em;
+    background-color: white;
+    display: inline;
+    padding: 0 0.3em;
+}

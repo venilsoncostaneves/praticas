@@ -1,0 +1,84 @@
+body {
+    background-color: rgba(10, 73, 54, 0.562)
+}
+
+.circle {
+    
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    background: linear-gradient(to right, var(--color1), var(--color2), var(--color1));
+
+}
+
+#circle1 {
+    margin: auto;
+    width: 256px;
+    height: 256px;
+    --color1: red;
+    --color2: red;
+
+}
+
+#circle2 {
+    width: 206px;
+    height: 206px;
+    --color1: white;
+    --color2: white;
+}
+
+#circle3 {
+    width: 156px;
+    height: 156px;
+    --color1: red;
+    --color2: red;
+}
+
+#circle4 {
+    width: 106px;
+    height: 106px;
+    --color1: blue;
+    --color2: rgb(29, 68, 243);
+}
+
+#star {
+
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid white;
+    transform: rotate(180DEG);
+
+}
+
+#star:before {
+    position: absolute;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid white;
+    transform: rotate(70DEG);
+    content: "";
+    left: -50px;
+}
+
+#star::after {
+    position: absolute;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid white;
+    transform: rotate(-70DEG);
+    content: "";
+    left: -50px;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1::first-letter {
+    font-size: 100px;
+    color: yellow;
+}

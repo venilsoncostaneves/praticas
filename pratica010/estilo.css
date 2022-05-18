@@ -1,0 +1,23 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(68.15deg, #eaee0b 16.62%, #4518e6 80.60%);
+    font-size: 100%;
+}
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cabeçalho-item {
+    margin: 5px;
+    padding: 20px;
+    color: aliceblue;
+    font-weight: 1200;
+    font-size: 33px;
+}

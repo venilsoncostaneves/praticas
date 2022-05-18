@@ -1,0 +1,66 @@
+body {
+    background-color: yellowgreen;
+    color: chocolate;
+}
+
+
+
+p {
+    border: 30px solid saddlebrown;
+    background-color: aqua;
+    margin: auto;
+    color: brown;
+}
+
+
+.spfc {
+    text-decoration-line: underline;
+    outline-style: double;
+    outline-offset: 5px;
+    outline-width: 10px;
+    outline-color: aqua;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 20px solid white;
+    width: 50%;
+    height: 50%;
+    background: black;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.afc {
+    outline-style: groove;
+    outline-color: blueviolet;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 30px solid beige;
+    color: black;
+    background: darkmagenta;
+    text-align: center;
+    width: 20%;
+    height: 35%;
+}
+
+.ffr {
+    outline-style: dashed;
+    outline-color: purple;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 30px solid thistle;
+    color: black;
+    background: red;
+    text-align: center;
+}

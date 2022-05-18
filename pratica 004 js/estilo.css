@@ -1,0 +1,42 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.vasco {
+    text-align: center;
+    color: blue;
+    background-color: black;
+}
+
+button {
+    background-color: pink;
+    color: black;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+.tricolor {
+    width: auto;
+    background-color: red;
+    text-align: center;
+}
+
+.branco {
+    width: auto;
+    background-color: white;
+    text-align: center;
+}
+.preta {
+    color: black;
+}
+
+.pretinha {
+    color: black;
+}

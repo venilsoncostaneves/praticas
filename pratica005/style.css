@@ -1,0 +1,52 @@
+body {
+    background-color: burlywood;
+}
+
+table, tr, th, td {
+    text-align: center;
+    width: 10%;
+    height: 10%;
+    padding: 30px;
+    background-color: rgb(71, 61, 61);
+    border: 1px solid green;
+    color: aliceblue;
+}
+
+.cb {
+    background-color: brown;
+    font-size: 42px; 
+}
+h1 {
+    color: rgb(151, 82, 82);
+    background-color: cornflowerblue;
+    text-align: center;
+    width: auto;
+}
+
+.tricolor {
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(0.0deg, #020202 6.33%, #ffffff 50.33%, #ff0707 90.33%);
+    color: #000000;
+}
+
+.coxa {
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(0.0deg, #0d993b 6.33%, #ffffff 50.33%, #0d993b 90.33%);
+    color: #000000;
+}
+
+.vasco {
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(0.0deg, #000000 6.33%, #ffffff 50.33%, #000000 90.33%);
+    color: #000000;
+}
+
+.timao {
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(0deg, #000000 6.33%, #ffffff 50.33%, #000000 90.33%);
+    color: #000000;
+}
